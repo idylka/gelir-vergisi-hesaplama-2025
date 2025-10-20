@@ -1,4 +1,5 @@
 import streamlit as st
+st.title("idylka")
 
 bordro=st.checkbox("bordro")
 gelir=st.number_input("brut yillik gelirinizi giriniz")
@@ -41,4 +42,5 @@ aynet=net/12
 st.write("Yıllık Gelir",gelir,
          "Yıllık Net Gelir",net,
          "Aylık Brüt Gelir",ay,
+
          "Aylık Net Gelir",aynet,"Toplam Vergi",vergi)
